@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 # Configuration
 app.config['SECRET_KEY'] = 'your_secret_key'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@hostname:port/databasename'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://ingrecipe_data_user:yKVffwrDkDMPdZUpYfSX1g0xBrhceRDJ@dpg-ctorhq23esus73dcg9p0-a/ingrecipe_data'
 db = SQLAlchemy(app)
 
 # Models
